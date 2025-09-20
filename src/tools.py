@@ -2,15 +2,15 @@ import pandas as pd
 
 
 def round_columns_based_on_reference(
-    df: pd.DataFrame, reference_column: str, target_columns: list[str]
+    df: pd.DataFrame, reference_column: str, target_columns: list[str],
+
 ) -> pd.DataFrame:
     """
-    Round selected columns in a DataFrame based on the value of a reference column.
+    Round selected columns in a DataFrame based on the value of a reference column. test comment.
 
     Parameters:
     - df: The input DataFrame.
     - reference_column: Column used to determine rounding precision (e.g., "Close").
-    - target_columns: List of columns to apply the rounding to.
 
     Returns:
     - DataFrame with rounded columns.
